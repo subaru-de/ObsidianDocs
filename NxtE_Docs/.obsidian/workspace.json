@@ -4,71 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c9d1cb70a5a9e403",
+        "id": "5820cea76a4511c9",
         "type": "tabs",
         "children": [
           {
-            "id": "45bbbc25e7d23cf8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Papers/LoRA（LLM参数微调）.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "88afe2a8f6910424",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Papers/Multimodal.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ae59f859a18ca0b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Papers/Octavius.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "50977ea0da3bce99",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Papers/Diffusion Model.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "793f7567180008e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Papers/LLM Survey.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a72688053a59721b",
+            "id": "b2d8f548b4fbf3f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -79,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0be678f0f9f2b91e",
@@ -207,19 +147,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a72688053a59721b",
+  "active": "b2d8f548b4fbf3f1",
   "lastOpenFiles": [
-    "Pasted image 20240307222732.png",
-    "To Learn List.md",
+    "Pasted image 20240310215057.png",
     "Papers/LLM Survey.md",
-    "To Learn List",
+    "Pasted image 20240310212629.png",
+    "Papers/三种主流架构的注意力模式比较.png",
+    "Pasted image 20240310120706.png",
+    "Papers/LoRA（LLM参数微调）.md",
+    "Papers/Multimodal.md",
+    "Papers/Octavius.md",
     "Papers/Diffusion Model.md",
     "Papers/How to Read a Paper.md",
-    "Papers/Octavius.md",
-    "Papers/Multimodal.md",
+    "Papers/Pasted image 20240307222732.png",
     "Papers/Pasted image 20240302190816.png",
-    "Papers/LoRA（LLM参数微调）.md",
+    "To Learn List.md",
     "Welcome.md",
+    "To Learn List",
     "Papers"
   ]
 }
