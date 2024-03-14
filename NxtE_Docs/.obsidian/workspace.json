@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "5580ab4e7356fbb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "408/Operating System/1. 操作系统概述.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4c168539f4539d4b",
             "type": "leaf",
             "state": {
@@ -44,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Papers/MM-LLMs Survey.md",
+                "file": "408/Operating System/1. 操作系统概述.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Papers/MM-LLMs Survey.md",
+                "file": "408/Operating System/1. 操作系统概述.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Papers/MM-LLMs Survey.md"
+                "file": "408/Operating System/1. 操作系统概述.md"
               }
             }
           }
@@ -171,14 +183,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "40a90523826c6305",
+  "active": "5580ab4e7356fbb2",
   "lastOpenFiles": [
+    "Papers/MM-LLMs Survey.md",
+    "408/Operating System/1. 操作系统概述.md",
+    "408/Operating System",
+    "Untitled",
+    "408",
     "Words to learn.md",
     "Papers/LLM Survey.md",
     "To Learn List.md",
     "Papers/Pasted image 20240313205241.png",
     "Welcome.md",
-    "Papers/MM-LLMs Survey.md",
     "Papers/How to Read a Paper.md",
     "Papers/LoRA.md",
     "Papers/Multimodal.md",
