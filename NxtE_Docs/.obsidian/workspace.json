@@ -8,7 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b2d8f548b4fbf3f1",
+            "id": "1a07c1b66554e1e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Words to learn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "40a90523826c6305",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Papers/MM-LLMs Survey.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4c168539f4539d4b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "0be678f0f9f2b91e",
@@ -86,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Papers/LLM Survey.md",
+                "file": "Papers/MM-LLMs Survey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Papers/LLM Survey.md",
+                "file": "Papers/MM-LLMs Survey.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Papers/LLM Survey.md"
+                "file": "Papers/MM-LLMs Survey.md"
               }
             }
           }
@@ -147,22 +171,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b2d8f548b4fbf3f1",
+  "active": "40a90523826c6305",
   "lastOpenFiles": [
-    "Pasted image 20240310215057.png",
+    "Words to learn.md",
     "Papers/LLM Survey.md",
-    "Pasted image 20240310212629.png",
-    "Papers/三种主流架构的注意力模式比较.png",
-    "Pasted image 20240310120706.png",
-    "Papers/LoRA（LLM参数微调）.md",
+    "To Learn List.md",
+    "Papers/Pasted image 20240313205241.png",
+    "Welcome.md",
+    "Papers/MM-LLMs Survey.md",
+    "Papers/How to Read a Paper.md",
+    "Papers/LoRA.md",
     "Papers/Multimodal.md",
     "Papers/Octavius.md",
+    "Papers/Pasted image 20240313205229.png",
+    "Papers/Pasted image 20240312191330.png",
+    "Papers/Pasted image 20240310212629.png",
+    "Papers/Pasted image 20240310215057.png",
+    "Papers/三种主流架构的注意力模式比较.png",
+    "Pasted image 20240310120706.png",
     "Papers/Diffusion Model.md",
-    "Papers/How to Read a Paper.md",
     "Papers/Pasted image 20240307222732.png",
     "Papers/Pasted image 20240302190816.png",
-    "To Learn List.md",
-    "Welcome.md",
     "To Learn List",
     "Papers"
   ]
