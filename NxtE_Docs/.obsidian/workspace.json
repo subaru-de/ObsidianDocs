@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "408/Operating System/1. 操作系统概述.md",
+                "file": "To Learn List.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "408/Operating System/1. 操作系统概述.md",
+                "file": "To Learn List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "408/Operating System/1. 操作系统概述.md",
+                "file": "To Learn List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "408/Operating System/1. 操作系统概述.md"
+                "file": "To Learn List.md"
               }
             }
           }
@@ -185,10 +185,10 @@
   },
   "active": "5580ab4e7356fbb2",
   "lastOpenFiles": [
+    "408/Operating System/1. 操作系统概述.md",
     "408/Computer Network/1 概述.md",
     "408/Computer Network",
     "Papers/MM-LLMs Survey.md",
-    "408/Operating System/1. 操作系统概述.md",
     "408/Operating System",
     "Untitled",
     "408",
