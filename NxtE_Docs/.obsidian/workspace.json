@@ -11,8 +11,12 @@
             "id": "4b21cb363f4e800b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Papers/大规模语言模型——从理论到实践.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Papers/大规模语言模型——从理论到实践.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Papers/大规模语言模型——从理论到实践.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Papers/大规模语言模型——从理论到实践.md"
+              }
             }
           }
         ]
@@ -140,6 +148,7 @@
   },
   "active": "4b21cb363f4e800b",
   "lastOpenFiles": [
+    "Papers/大规模语言模型——从理论到实践.md",
     "Papers/LLM Survey.md",
     "To Learn List.md",
     "408/Operating System/1. 操作系统概述.md",
