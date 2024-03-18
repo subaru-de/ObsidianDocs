@@ -36,3 +36,4 @@ solely 仅仅
 avenue 途径
 versatility 通用性
 universally applicable 普适性
+despense with 摒弃，省掉
