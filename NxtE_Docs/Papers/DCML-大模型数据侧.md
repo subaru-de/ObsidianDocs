@@ -7,13 +7,13 @@ CLIP models for the entire dataset. We removed all English image-text pairs with
 What is ==nearest neighbor indices==
 ==distribution shifts==
 
-CLIP 和 BASIC 分别由
+CLIP 和 BASIC 分别的预训练数据集分别包含 4 亿对和 66 亿对图像-文本数据集，但都没有公开。
 
 
 
 # 1、DATACOMP: In search of the next generation of multimodal datasets 
 [[2304.14108] DataComp: In search of the next generation of multimodal datasets](https://arxiv.org/abs/2304.14108)
-多模态数据筛选Benchmark，同时给出了一些多模态数据筛选的Baseline
+多模态数据筛选 Benchmark，同时给出了一些多模态数据筛选的 Baseline
 Benchmark的网页：
 [https://www.datacomp.ai/](https://www.datacomp.ai/)
 其实就是筛选数据集train一个CLIP，比较性能
