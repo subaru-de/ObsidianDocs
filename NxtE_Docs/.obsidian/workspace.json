@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Words to learn.md",
+                "file": "Papers/DCML-大模型数据侧.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b950d555cd0780c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Papers/DCML-大模型数据侧.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Words to learn.md",
+                "file": "Papers/DCML-大模型数据侧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Words to learn.md",
+                "file": "Papers/DCML-大模型数据侧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Words to learn.md"
+                "file": "Papers/DCML-大模型数据侧.md"
               }
             }
           }
@@ -146,19 +159,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4b21cb363f4e800b",
+  "active": "b950d555cd0780c9",
   "lastOpenFiles": [
+    "Papers/Diffusion Model.md",
+    "Papers/LoRA.md",
+    "Words to learn.md",
+    "Papers/DCML-大模型数据侧.md",
     "Papers/Multimodal.md",
     "Papers/Octavius.md",
-    "Papers/Diffusion Model.md",
-    "Papers/DCML-大模型数据侧.md",
     "Papers/大规模语言模型——从理论到实践.md",
     "Papers/MM-LLMs Survey.md",
-    "Papers/LoRA.md",
     "Papers/LLM Survey.md",
     "Papers/How to Read a Paper.md",
     "Papers/三种主流架构的注意力模式比较.png",
-    "Words to learn.md",
     "To Learn List.md",
     "Papers/Pasted image 20240318142757.png",
     "408/Operating System/1. 操作系统概述.md",

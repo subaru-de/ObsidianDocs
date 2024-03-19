@@ -5,6 +5,10 @@ LAION-5B: An open large-scale dataset for training next generation image-text mo
 CLIP models for the entire dataset. We removed all English image-text pairs with cosine similarity below 0.28
 
 What is ==nearest neighbor indices==
+==distribution shifts==
+
+CLIP 和 BASIC 分别由
+
 
 
 # 1、DATACOMP: In search of the next generation of multimodal datasets 
