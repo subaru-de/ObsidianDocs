@@ -27,7 +27,52 @@ After CLIP’s initial success, ==ALIGN== and ==BASIC== improved contrastive mul
 CLD3: language detect
 ### 3.2 Safety During Collection
 We computed CLIP embeddings to filter out such samples.
-Q16
+## 4 Dataset Composition
+We release LAION-5B as the following three subsets:
+- 2.32 billion English image-text pairs. (LAION-2B-en or LAION-2B)
+- 2.26 billion image-text pairs from over 100 other languages.
+- 1.27 billion samples where a language could not be clearly detected.
+
+We provide metadata files in the Apache Parquet format that consist of the following attributes for each image-text pair:
+- • 
+    
+    A 64-bit integer identifier
+    
+      
+    一个64位整数标识符
+- • 
+    
+    The URL of the image.
+    
+      
+    图片的URL。
+- • 
+    
+    The text string.
+    
+      
+    文本字符串。
+- • 
+    
+    Height and width of the image.
+    
+      
+    图片的高度和宽度。
+- • 
+    
+    Cosine similarity between the text and image embeddings.
+    
+      
+    文本和图像嵌入之间的余弦相似度。
+- • 
+    
+    The output from our NSFW and watermark detectors (one score between 0 and 1 each).
+    
+      
+    我们的NSFW和水印检测器的输出（每个得分在0到1之间）。
+
+3% of images were detected as NSFW, which can be filtered out by a user with the NSFW tag.  
+3%的图像被检测为不适宜内容，用户可以通过使用不适宜内容标签来进行过滤。
 
 # 1. DATACOMP: In search of the next generation of multimodal datasets 
 [[2304.14108] DataComp: In search of the next generation of multimodal datasets](https://arxiv.org/abs/2304.14108)
