@@ -6,14 +6,14 @@ CLIP models for the entire dataset. We removed all English image-text pairs with
 
 What is ==nearest neighbor indices==
 ==distribution shifts==
-
+## 1 Introduction
 CLIP 和 BASIC 分别的预训练数据集分别包含 4 亿对和 66 亿对图像-文本数据集，但都没有公开。
 
 ![[Pasted image 20240319155931.png]]
+## 2 Related Work 相关工作
 CLIP 对比学习
 After CLIP’s initial success, ==ALIGN== and ==BASIC== improved contrastive multimodal learning by **increasing the training set size and the batch size used for training**. ==LiT== also **increased training scale** and experimented with a combination of pre-trained image representations and contrastive fine-tuning to connect frozen image representations to text. ==Flamingo== introduced the first large vision-language model with **in-context learning**.
-
-Dataset Assembly Pipeline:
+### 3.1 Dataset Assembly Pipeline
 1. Feed in Common Crawl
 2. Web page Filtering
    Parse the HTML IMG (image) tags from Common Crawl’s WAT metadata files, focus on images with an _alt-text_.
@@ -22,9 +22,12 @@ Dataset Assembly Pipeline:
 3. Download Image-Text Pairs
    We downloaded the raw images from the parsed URLs with asynchronous requests using the Trio and Asks Python libraries.
 4. Content Filtering
+   删除了所有余弦相似度低于0.28的英语图像-文本对，以及所有其他相似度低于0.26的对
 5. Store Data
 CLD3: language detect
-
+### 3.2 Safety During Collection
+We computed CLIP embeddings to filter out such samples.
+Q16
 
 # 1. DATACOMP: In search of the next generation of multimodal datasets 
 [[2304.14108] DataComp: In search of the next generation of multimodal datasets](https://arxiv.org/abs/2304.14108)
