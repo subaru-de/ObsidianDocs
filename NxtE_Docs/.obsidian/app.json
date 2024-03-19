@@ -2,7 +2,7 @@
   "alwaysUpdateLinks": true,
   "showLineNumber": false,
   "showIndentGuide": false,
-  "vimMode": false,
+  "vimMode": true,
   "newFileLocation": "current",
   "attachmentFolderPath": "./"
 }

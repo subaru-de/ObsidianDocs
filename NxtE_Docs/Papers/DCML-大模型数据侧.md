@@ -13,6 +13,7 @@ CLIP 和 BASIC 分别的预训练数据集分别包含 4 亿对和 66 亿对图�
 ## 2 Related Work 相关工作
 CLIP 对比学习
 After CLIP’s initial success, ==ALIGN== and ==BASIC== improved contrastive multimodal learning by **increasing the training set size and the batch size used for training**. ==LiT== also **increased training scale** and experimented with a combination of pre-trained image representations and contrastive fine-tuning to connect frozen image representations to text. ==Flamingo== introduced the first large vision-language model with **in-context learning**.
+## 3 Collection Methodology
 ### 3.1 Dataset Assembly Pipeline
 1. Feed in Common Crawl
 2. Web page Filtering
@@ -34,45 +35,14 @@ We release LAION-5B as the following three subsets:
 - 1.27 billion samples where a language could not be clearly detected.
 
 We provide metadata files in the Apache Parquet format that consist of the following attributes for each image-text pair:
-- • 
-    
-    A 64-bit integer identifier
-    
-      
-    一个64位整数标识符
-- • 
-    
-    The URL of the image.
-    
-      
-    图片的URL。
-- • 
-    
-    The text string.
-    
-      
-    文本字符串。
-- • 
-    
-    Height and width of the image.
-    
-      
-    图片的高度和宽度。
-- • 
-    
-    Cosine similarity between the text and image embeddings.
-    
-      
-    文本和图像嵌入之间的余弦相似度。
-- • 
-    
-    The output from our NSFW and watermark detectors (one score between 0 and 1 each).
-    
-      
-    我们的NSFW和水印检测器的输出（每个得分在0到1之间）。
-
+- A 64-bit integer identifier
+- The URL of the image.
+- The text string.
+- Height and width of the image.
+- Cosine similarity between the text and image embeddings.
+- The output from our NSFW and watermark detectors (one score between 0 and 1 each).
 3% of images were detected as NSFW, which can be filtered out by a user with the NSFW tag.  
-3%的图像被检测为不适宜内容，用户可以通过使用不适宜内容标签来进行过滤。
+## 5 Experiments Validating LAION-5B
 
 # 1. DATACOMP: In search of the next generation of multimodal datasets 
 [[2304.14108] DataComp: In search of the next generation of multimodal datasets](https://arxiv.org/abs/2304.14108)
