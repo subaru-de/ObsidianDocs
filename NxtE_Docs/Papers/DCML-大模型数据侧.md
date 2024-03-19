@@ -13,6 +13,13 @@ CLIP 和 BASIC 分别的预训练数据集分别包含 4 亿对和 66 亿对图�
 CLIP 对比学习
 After CLIP’s initial success, ==ALIGN== and ==BASIC== improved contrastive multimodal learning by **increasing the training set size and the batch size used for training**. ==LiT== also **increased training scale** and experimented with a combination of pre-trained image representations and contrastive fine-tuning to connect frozen image representations to text. ==Flamingo== introduced the first large vision-language model with **in-context learning**.
 
+Dataset Assembly Pipeline:
+1. distributed filtering of the Common Crawl web pages
+2. distributed downloading of image-text pairs
+3. content filtering
+CLD3: language detect
+
+
 # 1. DATACOMP: In search of the next generation of multimodal datasets 
 [[2304.14108] DataComp: In search of the next generation of multimodal datasets](https://arxiv.org/abs/2304.14108)
 多模态数据筛选 Benchmark，同时给出了一些多模态数据筛选的 Baseline
