@@ -14,9 +14,12 @@ CLIP 对比学习
 After CLIP’s initial success, ==ALIGN== and ==BASIC== improved contrastive multimodal learning by **increasing the training set size and the batch size used for training**. ==LiT== also **increased training scale** and experimented with a combination of pre-trained image representations and contrastive fine-tuning to connect frozen image representations to text. ==Flamingo== introduced the first large vision-language model with **in-context learning**.
 
 Dataset Assembly Pipeline:
-1. distributed filtering of the Common Crawl web pages
-2. distributed downloading of image-text pairs
-3. content filtering
+1. Feed in Common Crawl
+2. Web page Filtering
+   parse the HTML IMG (image) tags from Common Crawl’s WAT metadata files, focus on images with an _alt-text_. After extracting the alt-text, we perform language detection using CLD3 with three possible outputs: English, another language, or no detected language.
+3. Download Image-Text Pairs
+4. Content Filtering
+5. Store Data
 CLD3: language detect
 
 

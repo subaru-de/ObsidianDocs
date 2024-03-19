@@ -45,3 +45,4 @@ unparalleled 空前的，无与伦比的
 parse 解析
 threshold 阈值
 manual inspection 人工检查
+attribute 属性
