@@ -16,8 +16,11 @@ After CLIP’s initial success, ==ALIGN== and ==BASIC== improved contrastive mul
 Dataset Assembly Pipeline:
 1. Feed in Common Crawl
 2. Web page Filtering
-   parse the HTML IMG (image) tags from Common Crawl’s WAT metadata files, focus on images with an _alt-text_. After extracting the alt-text, we perform language detection using CLD3 with three possible outputs: English, another language, or no detected language.
+   Parse the HTML IMG (image) tags from Common Crawl’s WAT metadata files, focus on images with an _alt-text_.
+   After extracting the alt-text, we perform language detection using CLD3 with three possible outputs: English, another language, or no detected language.
+   We stored the resulting data in a PostgreSQL server for processing in the next stages of the pipeline. We maintained about 500M image URLs in the server at all times.
 3. Download Image-Text Pairs
+   We downloaded the raw images from the parsed URLs with asynchronous requests using the Trio and Asks Python libraries.
 4. Content Filtering
 5. Store Data
 CLD3: language detect
