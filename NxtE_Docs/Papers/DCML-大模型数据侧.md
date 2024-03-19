@@ -11,10 +11,7 @@ CLIP 和 BASIC 分别的预训练数据集分别包含 4 亿对和 66 亿对图�
 
 ![[Pasted image 20240319155931.png]]
 CLIP 对比学习
-After CLIP’s initial success, ==ALIGN== and ==BASIC== improved contrastive multimodal learning by increasing the training set size and the batch size used for training [[28](https://ar5iv.labs.arxiv.org/html/2210.08402?_immersive_translate_auto_translate=1#bib.bib28), [54](https://ar5iv.labs.arxiv.org/html/2210.08402?_immersive_translate_auto_translate=1#bib.bib54)].
-
-
-
+After CLIP’s initial success, ==ALIGN== and ==BASIC== improved contrastive multimodal learning by **increasing the training set size and the batch size used for training**.
 
 # 1. DATACOMP: In search of the next generation of multimodal datasets 
 [[2304.14108] DataComp: In search of the next generation of multimodal datasets](https://arxiv.org/abs/2304.14108)
