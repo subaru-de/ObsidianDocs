@@ -38,3 +38,4 @@ versatility 通用性
 universally applicable 普适性
 despense with 摒弃，省掉
 generalization capabilities 泛化能力
+achieved unprecedented performance gains 取得前所未有的xin
