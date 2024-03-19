@@ -9,6 +9,10 @@ What is ==nearest neighbor indices==
 
 CLIP 和 BASIC 分别的预训练数据集分别包含 4 亿对和 66 亿对图像-文本数据集，但都没有公开。
 
+![[Pasted image 20240319155931.png]]
+
+
+
 
 
 # 1. DATACOMP: In search of the next generation of multimodal datasets 
