@@ -90,30 +90,22 @@ Specifically, we propose Variance Alignment Score (VAS) which aims to find the m
 这篇文章中提到的一些其他方法：
 
 - using forward and reverse message passing over a constructed dataset graph.
-
-  Maharana, A., Yadav, P., and Bansal, M. D2 pruning: Mes sage passing for balancing diversity and difficulty in data pruning. arXiv preprint arXiv:2310.07931, 2023.
-
+  Maharana, A., Yadav, P., and Bansal, M. D2 pruning: Mes sage passing for balancing diversity and difficulty in data pruning. arXiv preprint arXiv:2310.07931, 2023.
 - Another relevant strategy is using the external image-set as data prior proposed
+  Gadre, S. Y., Ilharco, G., Fang, A., Hayase, J., Smyrnis, G., Nguyen, T., Marten, R., Wortsman, M., Ghosh, D., Zhang, J., et al. Datacomp: In search of the next generation of multimodal datasets. arXiv preprint arXiv:2304.14108, 2023.
 
-Gadre, S. Y., Ilharco, G., Fang, A., Hayase, J., Smyrnis, G., Nguyen, T., Marten, R., Wortsman, M., Ghosh, D., Zhang, J., et al. Datacomp: In search of the next generation of multimodal datasets. arXiv preprint arXiv:2304.14108, 2023.
 
 # 11. Is Cosine-Similarity of Embeddings Really About Similarity?
-
 [2403.05440.pdf (arxiv.org)](https://arxiv.org/pdf/2403.05440.pdf)
-
 这个文章感觉没啥用，偶然看到的，就是说用余弦相似度有些情况下可能并不能有效度量相似性。但是他的理论和实验都是在矩阵分解这个问题上进行的，所以感觉意义不大。
-
 # 12. CiT: Curation in Training for Effective Vision-Language Data
-
 [2301.02241.pdf (arxiv.org)](https://arxiv.org/pdf/2301.02241.pdf)
-
 使用先验，一边训练一遍构建数据集，只注重数据质量，感觉不重要
-
 # 13. Vision Instruction Tuning
 
 [https://arxiv.org/abs/2304.08485](https://arxiv.org/abs/2304.08485)
 
-这是LLaVA模型的论文，生成数据的方法是喂给 GPT Image 的 Caption 和 Bounding Box，先提供几个例子作为seed，之后用上面的feature去query大模型给出回答。
+这是LLaVA模型的论文，生成数据的方法是喂给 GPT Image 的 Caption 和 Bounding Box，先提供几个例子作为 seed，之后用上面的 feature 去 query 大模型给出回答。
 
 感觉这篇文章可以拿来当入门级论文看看，里面的方法写得很清楚。并且也有开源的数据集和代码，可以参考。
 
