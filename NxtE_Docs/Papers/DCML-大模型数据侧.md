@@ -11,12 +11,12 @@ CLIP 和 BASIC 分别的预训练数据集分别包含 4 亿对和 66 亿对图�
 
 
 
-# 1、DATACOMP: In search of the next generation of multimodal datasets 
+# 1. DATACOMP: In search of the next generation of multimodal datasets 
 [[2304.14108] DataComp: In search of the next generation of multimodal datasets](https://arxiv.org/abs/2304.14108)
 多模态数据筛选 Benchmark，同时给出了一些多模态数据筛选的 Baseline
 Benchmark的网页：
 [https://www.datacomp.ai/](https://www.datacomp.ai/)
-其实就是筛选数据集train一个CLIP，比较性能
+其实就是筛选数据集 train 一个 CLIP，比较性能
 Baseline:  
 1. No Filtering
 2. Random subsets
@@ -26,14 +26,14 @@ Baseline:
 6. Image-based filtering(visual content overlaps with ImageNet classes.)
 CLIP score filtering excels on most tasks 
 
-# 2、Improving multimodal datasets with image captioning 
+# 2. Improving multimodal datasets with image captioning 
 [[2307.10350] Improving Multimodal Datasets with Image Captioning](https://arxiv.org/abs/2307.10350)
 ![](https://lh7-us.googleusercontent.com/aqwzcg18oBHb2fxuDwiVdaFAKiI_8OHadBn3FNAZOW2-wpxxCv8-bHqgXgLUA5CgkyUv_1_WtsxN8K5UJv822MVICKLQ0A2Uhyjhf0m8CXtqgLIjLFDsLFEt-YfhksJP6ACWD5m4W7Gk7OGRS7xxgs4)
 1. synthetic captions in improving caption quality for multimodal training, as well as certain capabilities of the resulting model (e.g., retrieval). 需要不仅提升数据的质量，比如用BLIP2重新生成caption，还需要raw data来提升数据的diversity。合成caption对于retrieval task非常有用。
 2. Notably, we find that fine-tuning general purpose models towards the task of image captioning actually makes them less effective at producing good captions for CLIP training. 
 3. Our experiments with various candidate pool sizes, ranging from 12.8M to 1.28B image-text pairs, show that including generated captions in the training data can be highly effective at small and medium scales. However, with larger data quantities, the diversity gap between model-generated and web-scraped text begin to hinder performance gains, and it becomes increasingly harder to obtain state-of-the-art ImageNet accuracy by just improving text supervision alone.
 
-# 3、SIEVE: MULTIMODAL DATASET PRUNING USING IMAGE CAPTIONING MODELS 
+# 3. SIEVE: MULTIMODAL DATASET PRUNING USING IMAGE CAPTIONING MODELS 
 [[2310.02110] SIEVE: Multimodal Dataset Pruning Using Image Captioning Models](https://arxiv.org/abs/2310.02110)
 文章介绍了一种名为SIEVE的数据清洗方法,用于去除噪声图像-文本对数据。其主要思路是:
 1. 首先在一个小型但是质量很高(图像和文本对齐良好)的图文对数据集上预训练一个图像字幕生成模型。这个数据集虽然小,但是其多样性和质量可以保证训练出一个优质的字幕生成模型。
@@ -41,17 +41,16 @@ CLIP score filtering excels on most tasks 
 3. 将合成字幕与原始数据集中图像对应的真实文本进行比较,评估它们的对齐程度或相似性。如果合成字幕与真实文本差异很大,说明原始的图文对可能是噪声数据,对齐质量较差。
 4. 根据上述对齐度评估,对原始数据集进行"修剪"(pruning),即去除那些合成字幕与真实文本差异大的噪声图文对,得到一个质量更高的子集。
 
-# 4、ShareGPT4V: Improving Large Multi-Modal Models with Better Captions 
+# 4. ShareGPT4V: Improving Large Multi-Modal Models with Better Captions 
 [[2311.12793] ShareGPT4V: Improving Large Multi-Modal Models with Better Captions](https://arxiv.org/abs/2311.12793)
-利用GPT-Vision生成高质量Caption，最终生成更好的多模态模型
+利用GPT-Vision生成高质量 Caption，最终生成更好的多模态模型
 
-# 5、ALLAVA: HARNESSING GPT4V-SYNTHESIZED DATA FOR A LITE VISION-LANGUAGE MODEL 
+# 5. ALLAVA: HARNESSING GPT4V-SYNTHESIZED DATA FOR A LITE VISION-LANGUAGE MODEL 
 [[2402.11684] ALLaVA: Harnessing GPT4V-synthesized Data for A Lite Vision-Language Model](https://arxiv.org/abs/2402.11684)
-利用GPT-Vision生成高质量Caption，以及Q&A
-
-# 7、Finetuned Multimodal Language Models Are High-Quality Image-Text Data Filters 
+利用 GPT-Vision 生成高质量 Caption，以及 Q&A
+# 7. Finetuned Multimodal Language Models Are High-Quality Image-Text Data Filters 
 [[2403.02677] Finetuned Multimodal Language Models Are High-Quality Image-Text Data Filters](https://arxiv.org/abs/2403.02677)
-定义了比CLIP筛选效果更好的4个筛选数据Metrics
+定义了比 CLIP 筛选效果更好的 4 个筛选数据 Metrics
 Image-Text Matching (ITM)
 The fine-tuned MLM data filter can explicitly generate the ITM score on a scale of 100
 
@@ -63,10 +62,7 @@ the CTQ metric focuses on evaluating the text quality of image caption based on 
 
 Semantic Understanding (SU) 
 the SU metric focuses on determining if the image caption provides additional semantic information that is not readily apparent just from the image itself. Such auxiliary semantic information can be 1) the professions of persons in the image; 2) the locations, addresses, festivals, country names, city names; 3) the names or entities of buildings, people, bird species, animal breeds, car models, engines in the image; 4) the social relationships between the people in the image, i.e., lovers, parent, or child. 
-
-  
-
-# 8、Multimodal C4: AnOpen, Billion-scale Corpus of Images Interleaved with Text
+# 8. Multimodal C4: AnOpen, Billion-scale Corpus of Images Interleaved with Text
 [2304.06939.pdf (arxiv.org)](https://arxiv.org/pdf/2304.06939.pdf)
 将纯文本的C4扩展为图像/文本C4
 一般的数据集是由图像-文本对构成，但是图像文本之间的关系不止于此。
@@ -74,12 +70,12 @@ the SU metric focuses on determining if the image caption provides additional se
 将图像与文本的匹配看作一个二部匹配，使用CLIP-ViT计算相似度。
 特点是处理的数据对象是文本图像交错序列而非图像文本对及其匹配文本与图像的方式
 
-# 9、OBELICS: An Open Web-Scale Filtered Dataset of Interleaved Image-Text Documents
+# 9. OBELICS: An Open Web-Scale Filtered Dataset of Interleaved Image-Text Documents
 [arxiv.org/pdf/2306.16527.pdf](https://arxiv.org/pdf/2306.16527.pdf)
 构建了一个图像文本数据集，爬取网页然后清洗，没有什么额外的
 算是一个比较标准的处理数据流程，相当于是给出了LLM-TAP里面数据处理过程的一个实例。
 
-# 10、Variance Alignment Score: A Simple But Tough-to-Beat Data Selection Method for Multimodal Contrastive Learning
+# 10. Variance Alignment Score: A Simple But Tough-to-Beat Data Selection Method for Multimodal Contrastive Learning
 [2402.02055.pdf (arxiv.org)](https://arxiv.org/pdf/2402.02055.pdf)
 认为此前的工作**failed to consider the selection strategy from data distribution perspective**.This disadvan tage becomes more significant with limited computational resources, as high-quality data are not always the most in formative or representative.
 
@@ -101,31 +97,29 @@ Specifically, we propose Variance Alignment Score (VAS) which aims to find the m
 
 Gadre, S. Y., Ilharco, G., Fang, A., Hayase, J., Smyrnis, G., Nguyen, T., Marten, R., Wortsman, M., Ghosh, D., Zhang, J., et al. Datacomp: In search of the next generation of multimodal datasets. arXiv preprint arXiv:2304.14108, 2023.
 
-# 11、Is Cosine-Similarity of Embeddings Really About Similarity?
+# 11. Is Cosine-Similarity of Embeddings Really About Similarity?
 
 [2403.05440.pdf (arxiv.org)](https://arxiv.org/pdf/2403.05440.pdf)
 
 这个文章感觉没啥用，偶然看到的，就是说用余弦相似度有些情况下可能并不能有效度量相似性。但是他的理论和实验都是在矩阵分解这个问题上进行的，所以感觉意义不大。
 
-# 12、CiT: Curation in Training for Effective Vision-Language Data
+# 12. CiT: Curation in Training for Effective Vision-Language Data
 
 [2301.02241.pdf (arxiv.org)](https://arxiv.org/pdf/2301.02241.pdf)
 
 使用先验，一边训练一遍构建数据集，只注重数据质量，感觉不重要
 
-# 13、Vision Instruction Tuning
+# 13. Vision Instruction Tuning
 
 [https://arxiv.org/abs/2304.08485](https://arxiv.org/abs/2304.08485)
 
-这是LLaVA模型的论文，生成数据的方法是喂给GPT Image的Caption和Bounding Box，先提供几个例子作为seed，之后用上面的feature去query大模型给出回答。
+这是LLaVA模型的论文，生成数据的方法是喂给 GPT Image 的 Caption 和 Bounding Box，先提供几个例子作为seed，之后用上面的feature去query大模型给出回答。
 
 感觉这篇文章可以拿来当入门级论文看看，里面的方法写得很清楚。并且也有开源的数据集和代码，可以参考。
 
 Future Work:
-
-1、可以多定义Metrics，Metrics之间可能有耦合的关系存在。可以通过实验选出重要的Metrics
-
-2、训练模型做更好的Evaluation。比如图像分割，对于每个物体识别，要求生成的Caption包含物体，也就是Object Detail Fulfillment
+1. 可以多定义Metrics，Metrics之间可能有耦合的关系存在。可以通过实验选出重要的Metrics
+2. 训练模型做更好的Evaluation。比如图像分割，对于每个物体识别，要求生成的Caption包含物体，也就是Object Detail Fulfillment
 
 Questions:  
 DATACOMP是个好数据集，针对数据集从零开始训练CLIP模型来检验成果。但是我认为可以在其他模型进行测试，比如其他的大语言模型
