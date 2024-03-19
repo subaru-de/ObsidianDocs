@@ -1,13 +1,10 @@
-## CLIP
+# CLIP
 擅长图像文本匹配、图像文本检索
 Image Text Contrastive(ITC) Loss
-
-## ViLT
+# ViLT
 移除了预训练的目标检测器，换成了可学习的 Patch Embedding Layer
 性能不够高，推理时间快，训练时间很慢
-
-
-## ALBEF
+# ALBEF
 - ITC(Image-Text Contrastive) Loss: (I, T)
 - ITM(Image-Text Matching) Loss: (I, T)
 - MLM(Masked Language Modeling): (I, T') 多次前向 两次forward
