@@ -133,7 +133,7 @@ Specifically, we propose Variance Alignment Score (VAS) which aims to find the m
 使用先验，一边训练一遍构建数据集，只注重数据质量，感觉不重要
 # 13. Vision Instruction Tuning
 [https://arxiv.org/abs/2304.08485](https://arxiv.org/abs/2304.08485)
-这是LLaVA模型的论文，生成数据的方法是喂给 GPT Image 的 Caption 和 Bounding Box，先提供几个例子作为 seed，之后用上面的 feature 去 query 大模型给出回答。
+这是 LLaVA 模型的论文，生成数据的方法是喂给 GPT Image 的 Caption 和 Bounding Box，先提供几个例子作为 seed，之后用上面的 feature 去 query 大模型给出回答。
 
 感觉这篇文章可以拿来当入门级论文看看，里面的方法写得很清楚。并且也有开源的数据集和代码，可以参考。
 
