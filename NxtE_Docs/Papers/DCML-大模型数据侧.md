@@ -143,3 +143,7 @@ Future Work:
 
 Questions:  
 DATACOMP是个好数据集，针对数据集从零开始训练CLIP模型来检验成果。但是我认为可以在其他模型进行测试，比如其他的大语言模型
+
+## Abstract
+仅语言的 GPT-4 如何生成多模态的指令微调数据集
+## 1 Introduction

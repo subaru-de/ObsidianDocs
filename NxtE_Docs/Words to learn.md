@@ -46,3 +46,6 @@ parse 解析
 threshold 阈值
 manual inspection 人工检查
 attribute 属性
+synthetic 合成的
+synergy 协同
+emergent 兴起，新兴
