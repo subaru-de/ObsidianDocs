@@ -164,4 +164,8 @@ instruction tuning and ==prompt tuning==
 ==human crowd-scouring==
 
 ## 3 GPT-assisted Visual Instruction Data Generation
-instruct the assistant to describe the image content
+For an image $X_v$ and its associated caption $X_c$ , it is natural to create a set of questions $X_q$ with the
+intent to instruct the assistant to describe the image content. We prompt GPT-4 to curate such a list of questions (see details in Appendix).
+Human: $X_q\ X_v$ 
+Assistant: $X_c$ 
+
