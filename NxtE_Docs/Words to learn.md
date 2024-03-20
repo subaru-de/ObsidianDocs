@@ -49,3 +49,4 @@ attribute 属性
 synthetic 合成的
 synergy 协同
 emergent 兴起，新兴
+implicitly 隐含地
