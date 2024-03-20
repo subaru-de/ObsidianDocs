@@ -152,3 +152,6 @@ Contributions:
 - Large multimodal models
 - Multimodal instruction-following benchmark
 - Open-source
+
+## 2 Related works
+==the teacher-student distillation ideas==

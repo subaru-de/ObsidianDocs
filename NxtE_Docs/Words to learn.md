@@ -54,3 +54,4 @@ interactivity 互动性
 adaptability 适应能力
 empirical 经验性
 validate 验证
+respectively 分别地
