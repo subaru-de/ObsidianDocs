@@ -155,3 +155,9 @@ Contributions:
 
 ## 2 Related works
 ==the teacher-student distillation ideas==
+
+Flamingo can be viewed as the GPT-3 moment in the multimodal domain, due to its strong
+performance on zero-shot task transfer and in-context-learning.
+
+instruction tuning and ==prompt tuning==
+
