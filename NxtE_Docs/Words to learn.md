@@ -58,3 +58,4 @@ respectively 分别地
 explicitly 明确地
 surge 激增
 curate 策划
+to mitigate this issue 为了减轻这个问题
