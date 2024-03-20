@@ -147,3 +147,8 @@ DATACOMP是个好数据集，针对数据集从零开始训练CLIP模型来检�
 ## Abstract
 仅语言的 GPT-4 如何生成多模态的指令微调数据集
 ## 1 Introduction
+Contributions:
+- Multimodal instruction-following data
+- Large multimodal models
+- Multimodal instruction-following benchmark
+- Open-source
