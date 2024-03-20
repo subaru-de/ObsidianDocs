@@ -162,3 +162,6 @@ performance on zero-shot task transfer and in-context-learning.
 instruction tuning and ==prompt tuning==
 
 ==human crowd-scouring==
+
+## 3 GPT-assisted Visual Instruction Data Generation
+instruct the assistant to describe the image content
