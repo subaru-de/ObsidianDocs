@@ -50,3 +50,5 @@ synthetic 合成的
 synergy 协同
 emergent 兴起，新兴
 implicitly 隐含地
+interactivity 互动性
+adaptability 适应能力
