@@ -52,3 +52,5 @@ emergent 兴起，新兴
 implicitly 隐含地
 interactivity 互动性
 adaptability 适应能力
+empirical 经验性
+validate 验证
