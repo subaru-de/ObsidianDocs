@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f268a6c814882682",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.11"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -159,7 +169,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b950d555cd0780c9",
+  "active": "f268a6c814882682",
   "lastOpenFiles": [
     "Papers/DCML-大模型数据侧.md",
     "Words to learn.md",
