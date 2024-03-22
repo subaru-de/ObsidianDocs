@@ -169,3 +169,6 @@ intent to instruct the assistant to describe the image content. We prompt GPT-4 
 Human: $X_q\ X_v$ 
 Assistant: $X_c$ 
 
+## 4
+### 4.1 architecture
+第二行错词
