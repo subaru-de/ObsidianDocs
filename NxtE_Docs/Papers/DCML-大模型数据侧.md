@@ -176,3 +176,7 @@ Assistant: $X_c$
 two-stage instruction-tuning procedure
 **Stage 1: Pre-trainging for Feature Alignment.**
 filter CC3M to 595K image-text pairs
+keep both the visual encoder and LLM weights frozen, and maximize the likelihood with trainable parameters θ=W (the projection matrix) only
+
+**Stage 2: Fine-tuning End-to-End.**
+We consider two specific use case scenarios:
