@@ -185,4 +185,5 @@ We consider two specific use case scenarios:
 ## 5 Experiments
 ### 5.1 Multimodal Chatbot
 **Quantitative Evaluation**
-让GPT-4和LLaVA来回答，最后用GPT-4评估二者的回答
+为了得到 approximate theoretical upper bound，根据 question 和 ground-truth 用 GPT-4 生成 reference prediction
+让 LLaVA 根据  image 来回答 question，最后把 answer 和 GPT-4 生成的 reference prediction 一起交给 GPT-4 评估
