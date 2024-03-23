@@ -182,3 +182,7 @@ keep both the visual encoder and LLM weights frozen, and maximize the likelihood
 We consider two specific use case scenarios:
 - Multimodal Chatbot
 - Science QA
+## 5 Experiments
+### 5.1 Multimodal Chatbot
+**Quantitative Evaluation**
+让GPT-4和LLaVA来回答，最后用GPT-4评估二者的回答
