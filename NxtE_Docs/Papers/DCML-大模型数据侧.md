@@ -180,3 +180,5 @@ keep both the visual encoder and LLM weights frozen, and maximize the likelihood
 
 **Stage 2: Fine-tuning End-to-End.**
 We consider two specific use case scenarios:
+- Multimodal Chatbot
+- Science QA
