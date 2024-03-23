@@ -169,6 +169,10 @@ intent to instruct the assistant to describe the image content. We prompt GPT-4 
 Human: $X_q\ X_v$ 
 Assistant: $X_c$ 
 
-## 4
+## 4 Visual Instruction Tuning
 ### 4.1 architecture
 第二行错词
+### 4.2 Training
+two-stage instruction-tuning procedure
+**Stage 1: Pre-trainging for Feature Alignment.**
+filter CC3M to 595K image-text pairs
