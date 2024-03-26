@@ -82,9 +82,11 @@ There has also been renewed interest in dataset pruning and deduplication.
 ### Large-scale multimodal datasets
 Additional large scale datasets like FILIP-300M, FLD-900M, and PaLI-10B were constructed to train multimodal models. However, many datasets used to train such models are **proprietary**.
 
-Even for public image-text datasets like SBU, Flickr30k, MS-COCO, TaiSu [[92](https://ar5iv.labs.arxiv.org/html/2304.14108?_immersive_translate_auto_translate=1#bib.bib92)], Conceptual Captions [[131](https://ar5iv.labs.arxiv.org/html/2304.14108?_immersive_translate_auto_translate=1#bib.bib131)], CC12M [[24](https://ar5iv.labs.arxiv.org/html/2304.14108?_immersive_translate_auto_translate=1#bib.bib24)], RedCaps [[38](https://ar5iv.labs.arxiv.org/html/2304.14108?_immersive_translate_auto_translate=1#bib.bib38)], WIT [[136](https://ar5iv.labs.arxiv.org/html/2304.14108?_immersive_translate_auto_translate=1#bib.bib136)], Shutterstock [[101](https://ar5iv.labs.arxiv.org/html/2304.14108?_immersive_translate_auto_translate=1#bib.bib101)], YFCC-100M [[140](https://ar5iv.labs.arxiv.org/html/2304.14108?_immersive_translate_auto_translate=1#bib.bib140)], COYO-700M [[20](https://ar5iv.labs.arxiv.org/html/2304.14108?_immersive_translate_auto_translate=1#bib.bib20)], LAION-400M [[128](https://ar5iv.labs.arxiv.org/html/2304.14108?_immersive_translate_auto_translate=1#bib.bib128)], or LAION-2B [[129](https://ar5iv.labs.arxiv.org/html/2304.14108?_immersive_translate_auto_translate=1#bib.bib129)] little is known about what constitutes a good image-text dataset.
+Even for public image-text datasets like SBU, Flickr30k, MS-COCO, TaiSu, Conceptual Captions, CC12M, RedCaps, WIT, Shutterstock, YFCC-100M, COYO-700M, LAION-400M, or LAION-2B little is known about what constitutes a good image-text dataset.
 
+To combat toxicity, we preprocess our pool to remove NSFW content and blur human faces detected in images.
 ## 3 The DataComp benchmark
+While traditional benchmarks emphasize model design, DataComp is centered around dataset development.
 ## 4 Baseline
 ## 5 Results and discussion
 ## Limitations and conclusion
