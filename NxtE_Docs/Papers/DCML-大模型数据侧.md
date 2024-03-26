@@ -75,7 +75,10 @@ DataComp-1B, a new state-of-the-art multimodal dataset.
 ## 2 Related Work
 The Effects of data curation
 Large-scale multimodal datasets
-
+## 3 The DataComp benchmark
+## 4 Baseline
+## 5 Results and discussion
+## Limitations and conclusion
 # 2. Improving multimodal datasets with image captioning 
 [[2307.10350] Improving Multimodal Datasets with Image Captioning](https://arxiv.org/abs/2307.10350)
 ![](https://lh7-us.googleusercontent.com/aqwzcg18oBHb2fxuDwiVdaFAKiI_8OHadBn3FNAZOW2-wpxxCv8-bHqgXgLUA5CgkyUv_1_WtsxN8K5UJv822MVICKLQ0A2Uhyjhf0m8CXtqgLIjLFDsLFEt-YfhksJP6ACWD5m4W7Gk7OGRS7xxgs4)

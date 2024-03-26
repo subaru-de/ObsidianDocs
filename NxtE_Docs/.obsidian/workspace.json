@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Papers/DCML-大模型数据侧.md",
+                "file": "Words to learn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Papers/DCML-大模型数据侧.md",
+                "file": "Words to learn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Papers/DCML-大模型数据侧.md"
+                "file": "Words to learn.md"
               }
             }
           }
@@ -158,10 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4b21cb363f4e800b",
+  "active": "b950d555cd0780c9",
   "lastOpenFiles": [
-    "Words to learn.md",
     "Papers/DCML-大模型数据侧.md",
+    "Words to learn.md",
     "Papers/LLaVA-Visual Instruction Tuning.pdf.md",
     "Papers/LLaVA-Visual Instruction Tuning.pdf",
     "Papers/Pasted image 20240319155931.png",
