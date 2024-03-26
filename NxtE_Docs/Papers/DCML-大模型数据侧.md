@@ -10,8 +10,7 @@ What is ==nearest neighbor indices==
 CLIP 和 BASIC 分别的预训练数据集分别包含 4 亿对和 66 亿对图像-文本数据集，但都没有公开。
 
 ![[Pasted image 20240319155931.png]]
-## 2 Related Work 相关工作
-CLIP 对比学习
+## 2 Related Work 相关工作CLIP 对比学习
 After CLIP’s initial success, ==ALIGN== and ==BASIC== improved contrastive multimodal learning by **increasing the training set size and the batch size used for training**. ==LiT== also **increased training scale** and experimented with a combination of pre-trained image representations and contrastive fine-tuning to connect frozen image representations to text. ==Flamingo== introduced the first large vision-language model with **in-context learning**.
 ## 3 Collection Methodology
 ### 3.1 Dataset Assembly Pipeline
@@ -58,6 +57,13 @@ Baseline:
 5. Text-based filtering( select examples that contain text overlapping with ImageNet class names)
 6. Image-based filtering(visual content overlaps with ImageNet classes.)
 CLIP score filtering excels on most tasks 
+
+## Abstract
+## 1 Introduction
+DataComp focuses on two key challenges that arise when assembling large training datasets:
+1. what data sources to train on
+2. how to filter a given data source
+Each challenge corresponds to one track in our benchmark.
 
 # 2. Improving multimodal datasets with image captioning 
 [[2307.10350] Improving Multimodal Datasets with Image Captioning](https://arxiv.org/abs/2307.10350)
