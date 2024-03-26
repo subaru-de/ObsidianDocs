@@ -60,10 +60,14 @@ CLIP score filtering excels on most tasks 
 
 ## Abstract
 ## 1 Introduction
+DataComp, a new benchmark for multimodal dataset design. To evaluate the quality of a training set, we score the resulting model with a testbed of 38 classification and retrieval tasks.
+
 DataComp focuses on two key challenges that arise when assembling large training datasets:
 1. what data sources to train on
 2. how to filter a given data source
 Each challenge corresponds to one track in our benchmark.
+
+DataComp contains **four** scales, where we vary the training budget and the candidate pool size from 12.8M to 12.8B samples.
 
 # 2. Improving multimodal datasets with image captioning 
 [[2307.10350] Improving Multimodal Datasets with Image Captioning](https://arxiv.org/abs/2307.10350)
