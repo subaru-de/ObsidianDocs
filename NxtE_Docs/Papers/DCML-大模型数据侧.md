@@ -80,6 +80,9 @@ Existing benchmarks have likewise operated at small data scales compared to data
 
 There has also been renewed interest in dataset pruning and deduplication.
 ### Large-scale multimodal datasets
+Additional large scale datasets like FILIP-300M, FLD-900M, and PaLI-10B were constructed to train multimodal models. However, many datasets used to train such models are **proprietary**.
+
+Even for public image-text datasets like SBU, Flickr30k, MS-COCO, TaiSu [[92](https://ar5iv.labs.arxiv.org/html/2304.14108?_immersive_translate_auto_translate=1#bib.bib92)], Conceptual Captions [[131](https://ar5iv.labs.arxiv.org/html/2304.14108?_immersive_translate_auto_translate=1#bib.bib131)], CC12M [[24](https://ar5iv.labs.arxiv.org/html/2304.14108?_immersive_translate_auto_translate=1#bib.bib24)], RedCaps [[38](https://ar5iv.labs.arxiv.org/html/2304.14108?_immersive_translate_auto_translate=1#bib.bib38)], WIT [[136](https://ar5iv.labs.arxiv.org/html/2304.14108?_immersive_translate_auto_translate=1#bib.bib136)], Shutterstock [[101](https://ar5iv.labs.arxiv.org/html/2304.14108?_immersive_translate_auto_translate=1#bib.bib101)], YFCC-100M [[140](https://ar5iv.labs.arxiv.org/html/2304.14108?_immersive_translate_auto_translate=1#bib.bib140)], COYO-700M [[20](https://ar5iv.labs.arxiv.org/html/2304.14108?_immersive_translate_auto_translate=1#bib.bib20)], LAION-400M [[128](https://ar5iv.labs.arxiv.org/html/2304.14108?_immersive_translate_auto_translate=1#bib.bib128)], or LAION-2B [[129](https://ar5iv.labs.arxiv.org/html/2304.14108?_immersive_translate_auto_translate=1#bib.bib129)] little is known about what constitutes a good image-text dataset.
 
 ## 3 The DataComp benchmark
 ## 4 Baseline
