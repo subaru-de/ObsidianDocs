@@ -70,6 +70,8 @@ Each challenge corresponds to one track in our benchmark.
 DataComp contains **four** scales, where we vary the training budget and the candidate pool size from 12.8M to 12.8B samples.
 
 Our fourth contribution is **over three hundred baseline experiments**. A key result: smaller, more stringently filtered datasets can lead to models that generalize better than larger datasets coming from the same pool.
+
+DataComp-1B, a new state-of-the-art multimodal dataset.
 # 2. Improving multimodal datasets with image captioning 
 [[2307.10350] Improving Multimodal Datasets with Image Captioning](https://arxiv.org/abs/2307.10350)
 ![](https://lh7-us.googleusercontent.com/aqwzcg18oBHb2fxuDwiVdaFAKiI_8OHadBn3FNAZOW2-wpxxCv8-bHqgXgLUA5CgkyUv_1_WtsxN8K5UJv822MVICKLQ0A2Uhyjhf0m8CXtqgLIjLFDsLFEt-YfhksJP6ACWD5m4W7Gk7OGRS7xxgs4)
