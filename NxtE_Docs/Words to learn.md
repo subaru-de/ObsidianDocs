@@ -64,3 +64,4 @@ pruning 修剪
 deduplication 去重
 preliminary 初步的
 quantify 量化
+flawed 有错误的
