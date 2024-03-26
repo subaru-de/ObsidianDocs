@@ -77,6 +77,8 @@ DataComp-1B, a new state-of-the-art multimodal dataset.
 Dataset cleaning and outlier removal to discard samples that may lead to undesirable model bias.
 
 Existing benchmarks have likewise operated at small data scales compared to datasets like LAION-2B, which contains over two billion images. DataComp bridges this gap by aligning data-centric investigation with large scale image-text training.
+
+There has also been renewed interest in dataset pruning and deduplication.
 ### Large-scale multimodal datasets
 
 ## 3 The DataComp benchmark
