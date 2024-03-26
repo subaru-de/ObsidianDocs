@@ -3,7 +3,7 @@
 LAION-5B: An open large-scale dataset for training next generation image-text models
 [[2210.08402] LAION-5B: An open large-scale dataset for training next generation image-text models](https://arxiv.org/abs/2210.08402)
 CLIP models for the entire dataset. We removed all English image-text pairs with cosine similarity below 0.28
-
+## Abstract
 What is ==nearest neighbor indices==
 ==distribution shifts==
 ## 1 Introduction
@@ -89,7 +89,7 @@ To combat toxicity, we preprocess our pool to remove NSFW content and blur human
 While traditional benchmarks emphasize model design, DataComp is centered around dataset development.
 ## 4 Baseline
 ## 5 Results and discussion
-## Limitations and conclusion
+## 6 Limitations and conclusion
 # 2. Improving multimodal datasets with image captioning 
 [[2307.10350] Improving Multimodal Datasets with Image Captioning](https://arxiv.org/abs/2307.10350)
 ![](https://lh7-us.googleusercontent.com/aqwzcg18oBHb2fxuDwiVdaFAKiI_8OHadBn3FNAZOW2-wpxxCv8-bHqgXgLUA5CgkyUv_1_WtsxN8K5UJv822MVICKLQ0A2Uhyjhf0m8CXtqgLIjLFDsLFEt-YfhksJP6ACWD5m4W7Gk7OGRS7xxgs4)
