@@ -121,14 +121,16 @@ In total we have (with some overlap): 22 of the datasets evaluated in [Learning
 DataComp adopts a zero-shot evaluation protocol. We find a strong rank correlation (>0.99) between performance in linear probe zero-shot settings.
 ## 4 Baseline
 ### 4.1 Filtering baselines
-1. No filtering.
+1. No filtering
 2. Random subsets.
    form subsets consisting of 1%, 10%, 25%, 50% and 75% of the pool chosen at random
-3. Basic filtering.
+3. Basic filtering
    filtering by _language_; filtering by _caption length_; and filtering by _image size_, We also experiment with combining language and caption length filtering and combining language, caption length, image size fitering.
 4. CLIP score and LAION filtering.
-5. Text-based filtering.
-6. Image-based filtering.
+5. Text-based filtering
+   We select examples that contain text overlapping with ImageNet class names. Select English captions (according to fasttext) that contain words from ImageNet-21K or ImageNet-1K class synsets.
+6. Image-based filtering
+   We select a subset of examples whose visual content overlaps with ImageNet classes.
 ### 4.2 BYOD baselines
 We experiment with multiple external data sources, including four moderately sized datasets (10 to 58M samples) studied by Nguyen et al. [Quality not quantity: On the interaction between dataset design and robustness of clip.](https://openreview.net/forum?id=LTCBavFWp5C)—CC12M, YFCC15M, RedCaps and Shutterstock—and the larger LAION-2B. We also present experiments combining some of the data sources.
 ## 5 Results and discussion
