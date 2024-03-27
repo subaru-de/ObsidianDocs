@@ -65,3 +65,4 @@ deduplication 去重
 preliminary 初步的
 quantify 量化
 flawed 有错误的
+from scratch 从零开始
