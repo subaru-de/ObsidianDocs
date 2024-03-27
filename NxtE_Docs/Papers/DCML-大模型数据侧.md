@@ -87,6 +87,12 @@ Even for public image-text datasets like SBU, Flickr30k, MS-COCO, TaiSu, Concept
 To combat toxicity, we preprocess our pool to remove NSFW content and blur human faces detected in images.
 ## 3 The DataComp benchmark
 While traditional benchmarks emphasize model design, DataComp is centered around dataset development.
+
+two tracks:
+one where participants must filter samples from the pools we provide
+
+
+The true data constraint is the size of the reservoir of samples: _candidate pool_ to be filtered. To make DataComp a realistic benchmark, we therefore fix the candidate pool in the filtering track.
 ## 4 Baseline
 ## 5 Results and discussion
 ## 6 Limitations and conclusion
