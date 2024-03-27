@@ -99,7 +99,7 @@ Compute cost is another relevant constraint. We specify the total _number of tr
 
 Smaller, more stringently filtered datasets can lead to models that generalize _better_.
 ### Competition tracks
-Two key procedures in assembling a training dataset are filtering a data source and aggregating data sources [[36](https://ar5iv.labs.arxiv.org/html/2304.14108?_immersive_translate_auto_translate=1#bib.bib36), [37](https://ar5iv.labs.arxiv.org/html/2304.14108?_immersive_translate_auto_translate=1#bib.bib37)]. To reflect this structure, DataComp has two tracks: filtering, where participants select a subset of the samples from CommonPool, and Bring Your Own Data (BYOD), where participants can use any source of data.
+Two key procedures in assembling a training dataset are filtering a data source and aggregating data sources. To reflect this structure, DataComp has two tracks: filtering, where participants select a subset of the samples from CommonPool, and Bring Your Own Data (BYOD), where participants can use any source of data.
 
 ## 4 Baseline
 ## 5 Results and discussion
