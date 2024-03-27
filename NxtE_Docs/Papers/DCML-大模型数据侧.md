@@ -107,7 +107,7 @@ Two key procedures in assembling a training dataset are filtering a data source�
 2. Safety preprocessing
    We use **Detoxify** to prune samples that contain unsafe text. We also discard samples with explicit visual content. To do so, we train a **classifier on CLIP ViT-L/14** features, using the NSFW dataset used in LAION-5B. We validate our classifier against the Google commercial image safety API.
 3. Evaluation set deduplication
-    Using a state-of-the-art image deduplication model, In addition to exact duplicate images, near-duplicates with variable aspect ratios, JPEG compression, overlays, color adjustment, and artistic rendering are also detected.
+    Using a state-of-the-art image deduplication model (Contrastive learning with large memory bank and negative embedding subtraction for accurate copy detection), In addition to exact duplicate images, near-duplicates with variable aspect ratios, JPEG compression, overlays, color adjustment, and artistic rendering are also detected.
 4. Face detection & blurring
 5. Pool metadata
 ## 4 Baseline
