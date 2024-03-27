@@ -103,13 +103,13 @@ Smaller, more stringently filtered datasets can lead to models that generalize 
 Two key procedures in assembling a training dataset are filtering a data source and aggregating data sources. To reflect this structure, DataComp has two tracks: filtering, where participants select a subset of the samples from CommonPool, and Bring Your Own Data (BYOD), where participants can use any source of data.
 ### 3.2 CommonPool generation, for the filtering track
 1. Extracting urls and dowloading data
-   We first use **cc2dataset**, which utilizes **Apache Spark**, to extract pairs of image urls and nonempty alt-text from all Common Crawl snapshots from 2014 to 2022.
+   We first use **[cc2dataset](https://github.com/rom1504/cc2dataset)**, which utilizes **[Apache Spark](https://dl.acm.org/doi/10.1145/2934664)**, to extract pairs of image urls and nonempty alt-text from all Common Crawl snapshots from 2014 to 2022.
 2. Safety preprocessing
-   We use **Detoxify** to prune samples that contain unsafe text. We also discard samples with explicit visual content. To do so, we train a **classifier on CLIP ViT-L/14** features, using the NSFW dataset used in LAION-5B. We validate our classifier against the Google commercial image safety API.
+   We use **[Detoxify](https://github.com/unitaryai/detoxify)** to prune samples that contain unsafe text. We also discard samples with explicit visual content. To do so, we train a **classifier on CLIP ViT-L/14** features, using the NSFW dataset used in LAION-5B. We validate our classifier against the Google commercial image safety API.
 3. Evaluation set deduplication
-    Using a state-of-the-art image deduplication model (Contrastive learning with large memory bank and negative embedding subtraction for accurate copy detection), In addition to exact duplicate images, near-duplicates with variable aspect ratios, JPEG compression, overlays, color adjustment, and artistic rendering are also detected.
+    Using a state-of-the-art image deduplication model ([Contrastive learning with large memory bank and negative embedding subtraction for accurate copy detection](https://arxiv.org/abs/2112.04323)), In addition to exact duplicate images, near-duplicates with variable aspect ratios, JPEG compression, overlays, color adjustment, and artistic rendering are also detected.
 4. Face detection & blurring
-   We detect and blur faces from images in our pool using a face detector [Sample and computation redistribution for efficient face detection](https://arxiv.org/abs/2105.04714).
+   We detect and blur faces from images in our pool using a face detector ([Sample and computation redistribution for efficient face detection](https://arxiv.org/abs/2105.04714)).
 5. Pool metadata
 ## 4 Baseline
 ## 5 Results and discussion
