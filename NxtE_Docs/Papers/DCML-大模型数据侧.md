@@ -105,7 +105,7 @@ Two key procedures in assembling a training dataset are filtering a data source�
 1. Extracting urls and dowloading data
    We first use **cc2dataset**, which utilizes **Apache Spark**, to extract pairs of image urls and nonempty alt-text from all Common Crawl snapshots from 2014 to 2022.
 2. Safety preprocessing
-   We use **Detoxify** to prune samples that contain unsafe text.
+   We use **Detoxify** to prune samples that contain unsafe text. We also discard samples with explicit visual content. To do so, we train a **classifier on CLIP ViT-L/14** features, using the NSFW dataset used in LAION-5B. We validate our classifier against the Google commercial image safety API.
 3. Evaluation set deduplication
 4. Face detection & blurring
 5. Pool metadata
