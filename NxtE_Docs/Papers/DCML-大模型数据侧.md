@@ -109,6 +109,7 @@ Two key procedures in assembling a training dataset are filtering a data sourceÂ
 3. Evaluation set deduplication
    Â Using a state-of-the-art image deduplication model (Contrastive learning with large memory bank and negative embedding subtraction for accurate copy detection), In addition to exact duplicate images, near-duplicates with variable aspect ratios, JPEG compression, overlays, color adjustment, and artistic rendering are also detected.
 4. Face detection & blurring
+   We detect and blur faces from images in our pool using a face detector [Sample and computation redistribution for efficient face detection](https://arxiv.org/abs/2105.04714).
 5. Pool metadata
 ## 4 Baseline
 ## 5 Results and discussion
