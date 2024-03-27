@@ -86,7 +86,8 @@ Even for public image-text datasets like SBU, Flickr30k, MS-COCO, TaiSu, Concept
 
 To combat toxicity, we preprocess our pool to remove NSFW content and blur human faces detected in images.
 ## 3 The DataComp benchmark
-### Overview
+### 3.1 Competition design
+#### Overview
 While traditional benchmarks emphasize model design, DataComp is centered around dataset development.
 
 Two tracks:
@@ -98,9 +99,14 @@ The true data constraint is the size of the reservoir of samples: _candidate po
 Compute cost is another relevant constraint. We specify the total _number of training samples seen_.
 
 Smaller, more stringently filtered datasets can lead to models that generalize _better_.
-### Competition tracks
+#### Competition tracks
 Two key procedures in assembling a training dataset are filtering a data source and aggregating data sources. To reflect this structure, DataComp has two tracks: filtering, where participants select a subset of the samples from CommonPool, and Bring Your Own Data (BYOD), where participants can use any source of data.
-
+### 3.2 CommonPool generation, for the filtering track
+Extracting urls and dowloading data
+Safety preprocessing
+Evaluation set deduplication
+Face detection & blurring
+Pool metadata
 ## 4 Baseline
 ## 5 Results and discussion
 ## 6 Limitations and conclusion
