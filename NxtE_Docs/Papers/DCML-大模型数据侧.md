@@ -114,8 +114,9 @@ Two key procedures in assembling a training dataset are filtering a data source�
    distribute metadata for each sample in CommonPool (e.g., image url, alt-text, original image resolution, CLIP features, and CLIP similarity scores), release SHA256 hashes for each image to guard against data poisoning in subsequent CommonPool downloads.
 ### 3.3 The bring your own data (BYOD) track
 ### 3.4 Training
-We closely follow the CLIP training recipe proposed by : training models from scratch with a contrastive objective over images and captions.
-
+We closely follow the CLIP training recipe proposed by [Learning transferable visual models from natural language supervision](https://arxiv.org/abs/2103.00020): training models from scratch with a contrastive objective over images and captions.
+### 3.5 Evaluation
+In total we have (with some overlap): 22 of the datasets evaluated in [Learning transferable visual models from natural language supervision](https://arxiv.org/abs/2103.00020), 6 ImageNet distribution shifts (i.e., ImageNet-Sketch, ImageNet-V2, ImageNet-A, ImageNet-O, ImageNet-R, and ObjectNet), 13 datasets from VTAB, and 3 datasets from WILDS. Retrieval datasets include Flickr30k, MSCOCO, and the WinoGAViL commonsense association task [[17](https://ar5iv.labs.arxiv.org/html/2304.14108?_immersive_translate_auto_translate=1#bib.bib17)].
 ## 4 Baseline
 ## 5 Results and discussion
 ## 6 Limitations and conclusion
