@@ -102,11 +102,13 @@ Smaller, more stringently filtered datasets can lead to models that generalize 
 #### Competition tracks
 Two key procedures in assembling a training dataset are filtering a data source and aggregating data sources. To reflect this structure, DataComp has two tracks: filtering, where participants select a subset of the samples from CommonPool, and Bring Your Own Data (BYOD), where participants can use any source of data.
 ### 3.2 CommonPool generation, for the filtering track
-Extracting urls and dowloading data
-Safety preprocessing
-Evaluation set deduplication
-Face detection & blurring
-Pool metadata
+1. Extracting urls and dowloading data
+   We first use **cc2dataset**, which utilizes **Apache Spark**, to extract pairs of image urls and nonempty alt-text from all Common Crawl snapshots from 2014 to 2022.
+2. Safety preprocessing
+   We use **Detoxify** to prune samples that contain unsafe text.
+3. Evaluation set deduplication
+4. Face detection & blurring
+5. Pool metadata
 ## 4 Baseline
 ## 5 Results and discussion
 ## 6 Limitations and conclusion
