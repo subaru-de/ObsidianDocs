@@ -130,7 +130,7 @@ DataComp adopts a zero-shot evaluation protocol. We find a strong rank correlat
 5. Text-based filtering
    We select examples that contain text overlapping with ImageNet class names. Select English captions (according to fasttext) that contain words from ImageNet-21K or ImageNet-1K class synsets.
 6. Image-based filtering
-   We select a subset of examples whose visual content overlaps with ImageNet classes.
+   We select a subset of examples whose visual content overlaps with ImageNet classes. After applying English language (fasttext) and caption length filtering, we cluster the image embeddings extracted by the OpenAI ViT-L/14 model for each image into 100K groups using Faiss. We then find the nearest neighbor group for every ImageNet training example, and keep examples belonging to these groups.
 ### 4.2 BYOD baselines
 We experiment with multiple external data sources, including four moderately sized datasets (10 to 58M samples) studied by Nguyen et al. [Quality not quantity: On the interaction between dataset design and robustness of clip.](https://openreview.net/forum?id=LTCBavFWp5C)—CC12M, YFCC15M, RedCaps and Shutterstock—and the larger LAION-2B. We also present experiments combining some of the data sources.
 ## 5 Results and discussion
