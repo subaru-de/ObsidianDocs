@@ -116,8 +116,18 @@ Two key procedures in assembling a training dataset are filtering a data source�
 ### 3.4 Training
 We closely follow the CLIP training recipe proposed by [Learning transferable visual models from natural language supervision](https://arxiv.org/abs/2103.00020): training models from scratch with a contrastive objective over images and captions.
 ### 3.5 Evaluation
-In total we have (with some overlap): 22 of the datasets evaluated in [Learning transferable visual models from natural language supervision](https://arxiv.org/abs/2103.00020), 6 ImageNet distribution shifts (i.e., ImageNet-Sketch, ImageNet-V2, ImageNet-A, ImageNet-O, ImageNet-R, and ObjectNet), 13 datasets from VTAB, and 3 datasets from WILDS. Retrieval datasets include Flickr30k, MSCOCO, and the WinoGAViL commonsense association task [[17](https://ar5iv.labs.arxiv.org/html/2304.14108?_immersive_translate_auto_translate=1#bib.bib17)].
+In total we have (with some overlap): 22 of the datasets evaluated in [Learning transferable visual models from natural language supervision](https://arxiv.org/abs/2103.00020), 6 ImageNet distribution shifts (i.e., ImageNet-Sketch, ImageNet-V2, ImageNet-A, ImageNet-O, ImageNet-R, and ObjectNet), 13 datasets from VTAB, and 3 datasets from WILDS. Retrieval datasets include Flickr30k, MSCOCO, and the WinoGAViL commonsense association task.
+
+DataComp adopts a zero-shot evaluation protocol. We find a strong rank correlation (>0.99) between performance in linear probe zero-shot settings.
 ## 4 Baseline
+#### 4.1 Filtering baselines
+No filtering.
+Random subsets.
+Basic filtering.
+CLIP score and LAION filtering.
+Text-based filtering.
+Image-based filtering.
+
 ## 5 Results and discussion
 ## 6 Limitations and conclusion
 # 2. Improving multimodal datasets with image captioning 
