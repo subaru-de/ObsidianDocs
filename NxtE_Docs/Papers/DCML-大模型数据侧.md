@@ -111,6 +111,7 @@ Two key procedures in assembling a training dataset are filtering a data source�
 4. Face detection & blurring
    We detect and blur faces from images in our pool using a face detector ([Sample and computation redistribution for efficient face detection](https://arxiv.org/abs/2105.04714)).
 5. Pool metadata
+   distribute metadata for each sample in CommonPool (e.g., image url, alt-text, original image resolution, CLIP features, and CLIP similarity scores), release SHA256 hashes for each image to guard against data poisoning in subsequent CommonPool downloads.
 ## 4 Baseline
 ## 5 Results and discussion
 ## 6 Limitations and conclusion
