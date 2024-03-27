@@ -120,14 +120,15 @@ In total we have (with some overlap): 22 of the datasets evaluated in [Learning
 
 DataComp adopts a zero-shot evaluation protocol. We find a strong rank correlation (>0.99) between performance in linear probe zero-shot settings.
 ## 4 Baseline
-#### 4.1 Filtering baselines
+### 4.1 Filtering baselines
 No filtering.
 Random subsets.
 Basic filtering.
 CLIP score and LAION filtering.
 Text-based filtering.
 Image-based filtering.
-
+### 4.2 BYOD baselines
+We experiment with multiple external data sources, including four moderately sized datasets (10 to 58M samples) studied by Nguyen et al. [Quality not quantity: On the interaction between dataset design and robustness of clip.](https://openreview.net/forum?id=LTCBavFWp5C)—CC12M, YFCC15M, RedCaps and Shutterstock—and the larger LAION-2B. We also present experiments combining some of the data sources.
 ## 5 Results and discussion
 ## 6 Limitations and conclusion
 # 2. Improving multimodal datasets with image captioning 
