@@ -114,7 +114,7 @@ Two key procedures in assembling a training dataset are filtering a data source�
    distribute metadata for each sample in CommonPool (e.g., image url, alt-text, original image resolution, CLIP features, and CLIP similarity scores), release SHA256 hashes for each image to guard against data poisoning in subsequent CommonPool downloads.
 ### 3.3 The bring your own data (BYOD) track
 ### 3.4 Training
-
+We closely follow the CLIP training recipe proposed by : training models from scratch with a contrastive objective over images and captions.
 
 ## 4 Baseline
 ## 5 Results and discussion
