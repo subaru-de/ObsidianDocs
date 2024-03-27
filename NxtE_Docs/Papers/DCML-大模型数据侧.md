@@ -135,7 +135,11 @@ DataComp adopts a zero-shot evaluation protocol. We find a strong rank correlat
 We experiment with multiple external data sources, including four moderately sized datasets (10 to 58M samples) studied by Nguyen et al. [Quality not quantity: On the interaction between dataset design and robustness of clip.](https://openreview.net/forum?id=LTCBavFWp5C)—CC12M, YFCC15M, RedCaps and Shutterstock—and the larger LAION-2B. We also present experiments combining some of the data sources.
 ## 5 Results and discussion
 ### Main results
-
+Most notably, the intersection between image-based filtering and CLIP score filtering excels on most tasks.
+The exception is at the small scale and for retrieval datasets.
+### DataComp leads to better image-text datasets
+We contribute DataComp-1B, which is the output of the Image-based ∩ CLIP score (L/14 30%) baseline filter at the xlarge scale of the filtering track.
+Our dataset is comprised of 1.4B samples, which not only is _smaller_ than the LAION-2B dataset with 2.3B samples, but also comes from a smaller pool. Nevertheless, a CLIP L/14 trained on DataComp-1B **outperforms the LAION-2B competitor by 6.1 percentage points on ImageNet**. Moreover, training on DataComp-1B improves ImageNet accuracy by **3.7 percentage points over OpenAI’s ViT-L/14** trained with the same compute budget.
 ## 6 Limitations and conclusion
 # 2. Improving multimodal datasets with image captioning 
 [[2307.10350] Improving Multimodal Datasets with Image Captioning](https://arxiv.org/abs/2307.10350)
